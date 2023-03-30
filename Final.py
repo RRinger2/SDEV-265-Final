@@ -5,7 +5,7 @@ import sqlite3
 from tkinter import messagebox
 
 
-
+############################# Begin Second Window #####################################
 def login():
     user=username.get()
     code=password.get()
@@ -39,7 +39,7 @@ def login():
     elif code!='1234':
         messagebox.showerror('Invalid','Please enter Username and Password')
 
-
+############################# End Second Window #####################################
 
 def main_screen():
     #Creation of the login screen/window
